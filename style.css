@@ -49,7 +49,39 @@ h1 {
   width: 1047px;
   margin: 0 auto;
 }
-h2 {
+.container > h2 {
   color: var(--primary-text-color);
   text-align: center;
+}
+.collection {
+  width: 329px;
+  height: 476px;
+  border: 1px solid;
+}
+
+.image {
+  padding: 15px 17px;
+}
+.image img {
+  width: 100%;
+  border-radius: 5px;
+}
+.information {
+  padding: 0 17px;
+}
+.collection-name {
+  color: #18191f;
+  font-size: 28px;
+  margin: 6px 0px;
+}
+.price {
+  color: rgba(0, 0, 0, 0.87);
+}
+.fa-star {
+  color: #fb8200;
+}
+.product-detail {
+  margin: 0px;
+  color: #18191f;
+  font-size: 14px;
 }
