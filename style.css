@@ -1,0 +1,55 @@
+body {
+  /* font-family: "Inter", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #aaaaaa;
+}
+:root {
+  --primary-text-color: #3a3a3a;
+}
+.influencer {
+  height: 100vh;
+  margin-left: 120px;
+  margin-right: 165px;
+  display: flex;
+  gap: 133px;
+  align-items: center;
+  justify-content: center;
+}
+.left-part {
+  color: var(--primary-text-color);
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+h1 {
+  font-size: 42px;
+  margin-bottom: 16px;
+}
+.button {
+  color: white;
+
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  border-radius: 41px;
+  cursor: pointer;
+}
+.right-part {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.right-part img {
+  width: 440px;
+  height: 414px;
+}
+.container {
+  width: 1047px;
+  margin: 0 auto;
+}
+h2 {
+  color: var(--primary-text-color);
+  text-align: center;
+}
