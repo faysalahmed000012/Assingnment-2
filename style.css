@@ -252,6 +252,9 @@ footer .fab {
   .seemore {
     padding-right: 20px;
   }
+  .feedback {
+    margin-bottom: 20px;
+  }
   .feedbacks {
     flex-direction: column;
   }
@@ -299,7 +302,7 @@ footer .fab {
     flex-wrap: wrap;
   }
   .feedback {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .subscribe {
     grid-template-columns: repeat(2, 1fr);
