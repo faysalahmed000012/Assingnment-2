@@ -114,6 +114,50 @@ h1 {
   text-decoration: none;
   color: #e02c6dde;
 }
+.own-add-section h2 {
+  text-align: center;
+}
+.feedbacks {
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* .feedbacks h2 {
+  text-align: center;
+} */
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  width: 300px;
+  padding: 20px;
+}
+.fa-quote-left {
+  font-size: 40px;
+  color: #e02c6d;
+}
+.feedback img {
+  width: 40%;
+}
+.subscribe {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+}
+.mailbox {
+  width: 300px;
+  height: 40px;
+}
+.mail-button {
+  height: 46px;
+  width: 60px;
+  background-color: #e02c6d;
+}
 footer {
   height: 100%;
   background-color: #0a0826;
