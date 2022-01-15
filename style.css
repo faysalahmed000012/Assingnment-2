@@ -8,6 +8,21 @@ body {
 :root {
   --primary-text-color: #3a3a3a;
 }
+nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+nav > ul {
+  display: flex;
+  list-style: none;
+  font-size: 17px;
+}
+nav > ul > li a {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+}
 .influencer {
   height: 100vh;
   margin-left: 120px;
@@ -75,8 +90,11 @@ h1 {
   width: 329px;
   height: 476px;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
 }
-
+.collection:hover {
+  transform: scale(1.01);
+}
 .image {
   padding: 15px 17px;
 }
@@ -152,11 +170,20 @@ h1 {
 .mailbox {
   width: 300px;
   height: 40px;
+  transition: all 0.5s ease-in;
+}
+.mailbox:hover {
+  transform: scale(1.03);
+  border: 2px solid #e02c6d;
 }
 .mail-button {
   height: 46px;
   width: 60px;
   background-color: #e02c6d;
+  transition: transform 0.5s ease-in;
+}
+.mail-button:hover {
+  transform: scale(1.03);
 }
 footer {
   height: 100%;
