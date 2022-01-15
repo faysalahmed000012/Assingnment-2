@@ -8,6 +8,9 @@ body {
 :root {
   --primary-text-color: #3a3a3a;
 }
+
+/* Navigaton bar */
+
 nav {
   padding: 10px;
   display: flex;
@@ -23,6 +26,7 @@ nav > ul > li a {
   color: black;
   padding-left: 10px;
 }
+/* influencer Part */
 .influencer {
   height: 100vh;
   margin-left: 120px;
@@ -70,6 +74,9 @@ h1 {
   width: 440px;
   height: 414px;
 }
+
+/* Continer Section */
+
 .container {
   max-width: 1047px;
   margin: 0 auto;
@@ -132,6 +139,9 @@ h1 {
   text-decoration: none;
   color: #e02c6dde;
 }
+
+/* Own Add Section */
+
 .own-add-section h2 {
   text-align: center;
 }
@@ -183,6 +193,9 @@ h1 {
 .mail-button:hover {
   transform: scale(1.03);
 }
+
+/* Footer */
+
 footer {
   height: 100%;
   background-color: #0a0826;
@@ -203,6 +216,9 @@ footer .fab {
 .footer-detail {
   padding: 50px;
 }
+
+/* For Mobile Devices */
+
 @media only screen and (max-width: 688px) {
   nav {
     width: 100%;
@@ -243,6 +259,9 @@ footer .fab {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+/* For Tab */
+
 @media only screen and (max-width: 991px) and (min-width: 689px) {
   nav {
     width: 100%;
